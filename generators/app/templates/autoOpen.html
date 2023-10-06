@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openbot</title>
+</head>
+
+<body>
+    <p>It has been opened automatically <span id="time">0</span> times</p>
+</body>
+<script>
+    let time = 0;
+    let timeEl = null;
+    async function autoOpen() {
+        const web = window.open('<%= link %>');
+        time += 1;
+        if (timeEl) {
+            timeEl.innerText = time;
+        }
+        await sleep(1000 * 5);
+        web.close();
+        await sleep(1000 * 5);
+        autoOpen();
+    }
+    function sleep(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+    }
+    window.onload = function () {
+        timeEl = document.getElementById('time');
+        autoOpen();
+    };
+</script>
+
+</html>
