@@ -28,7 +28,7 @@ then you can run `autoOpen.html` file with the following command:
 node serve.js
 ```
 
-**Remember to set the browser to allow your url to open pop-ups.**
+**Remember to set your browser to allow open pop-ups.**
 
 Then everything should work!
 
