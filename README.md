@@ -1,13 +1,13 @@
-# generator-openbot [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Automatically help you open a website at a regular time
+# generator-openbot
 
-## Installation
+> generating a file that will automatically help you open a website at a regular time
 
-First, install [Yeoman](http://yeoman.io) and generator-openbot using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+## Usage
+
+First, install [Yeoman](http://yeoman.io) and generator-github-profile using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
-npm install -g generator-openbot
+npm install -g yo generator-openbot
 ```
 
 Then generate your new project:
@@ -16,21 +16,22 @@ Then generate your new project:
 yo openbot
 ```
 
-## Getting To Know Yeoman
+It will generate `autoOpen.html` file for you.
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+If you are using the VSCode, then you can download the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension and use it to run `autoOpen.html`.
 
-## License
+Or you can choose `Need a live serve file` option then it will generate `serve.js` for you.
 
- © [yyz945947732]()
+then you can run `autoOpen.html` file with the following command:
 
+```bash
+node serve.js
+```
 
-[npm-image]: https://badge.fury.io/js/generator-openbot.svg
-[npm-url]: https://npmjs.org/package/generator-openbot
-[travis-image]: https://travis-ci.com/yyz945947732/generator-openbot.svg?branch=master
-[travis-url]: https://travis-ci.com/yyz945947732/generator-openbot
-[daviddm-image]: https://david-dm.org/yyz945947732/generator-openbot.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/yyz945947732/generator-openbot
+Remember to set the browser to allow your url to open pop-ups.
+
+Then everything should work!
+
+## LICENSE
+
+[MIT](https://github.com/yyz945947732/generator-openbot/blob/master/LICENSE)
