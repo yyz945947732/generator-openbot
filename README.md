@@ -30,6 +30,8 @@ node serve.js
 
 **Remember to set the browser to allow your url to open pop-ups.**
 
+[![autoopen]([图片地址](https://github.com/yyz945947732/generator-openbot/blob/master/asset/autoopen.png))](https://github.com/yyz945947732/generator-openbot/blob/master/asset/autoopen.png)
+
 Then everything should work!
 
 ## LICENSE
