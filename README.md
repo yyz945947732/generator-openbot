@@ -14,7 +14,7 @@ npm install -g yo generator-openbot
 
 ### generate
 
-Then generate your new project:
+Then execute the following command:
 
 ```bash
 yo openbot
