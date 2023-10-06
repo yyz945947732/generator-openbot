@@ -32,7 +32,7 @@ node serve.js
 
 Then everything should work!
 
-[![autoopen]([图片地址](https://github.com/yyz945947732/generator-openbot/blob/master/asset/autoopen.png))](https://github.com/yyz945947732/generator-openbot/blob/master/asset/autoopen.png)
+![autoopen](https://github.com/yyz945947732/generator-openbot/blob/master/asset/autoopen.png)
 
 ## LICENSE
 
