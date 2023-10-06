@@ -4,7 +4,7 @@
 
 ## Usage
 
-First, install [Yeoman](http://yeoman.io) and generator-github-profile using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-openbot using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo generator-openbot
@@ -28,7 +28,7 @@ then you can run `autoOpen.html` file with the following command:
 node serve.js
 ```
 
-Remember to set the browser to allow your url to open pop-ups.
+**Remember to set the browser to allow your url to open pop-ups.**
 
 Then everything should work!
 
