@@ -21,7 +21,7 @@ module.exports = class extends Generator {
         name: "isServeNeed",
         message: "Need a live serve file?",
         type: "confirm",
-        default: true
+        default: false
       }
     ];
     return this.prompt(prompts).then(props => {
